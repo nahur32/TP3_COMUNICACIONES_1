@@ -1,19 +1,21 @@
 # Fdb version 4
-["biber informe"] 0 "informe.bcf" "informe.bbl" "informe" 1759188791.58574 -1
-  "informe.bcf" 1759188791 108053 1931562b9a24e4c6de9d2d7368ff5b3a "pdflatex"
+["biber informe"] 0 "informe.bcf" "informe.bbl" "informe" 1759189296.69059 -1
+  "informe.bcf" 1759189296 108053 1931562b9a24e4c6de9d2d7368ff5b3a "pdflatex"
   (generated)
   "informe.bbl"
   "informe.blg"
   (rewritten before read)
-["pdflatex"] 1759188788.58778 "c:/Users/canov/OneDrive/Documentos/GitHub/TP3_COMUNICACIONES_1/informe.tex" "informe.pdf" "informe" 1759188791.58685 2
+["pdflatex"] 1759189293.37378 "c:/Users/canov/OneDrive/Documentos/GitHub/TP3_COMUNICACIONES_1/informe.tex" "informe.pdf" "informe" 1759189296.69215 2
   "C:/Users/canov/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758514273 84440 4cb442eb2b994e0c3de64aa9fad60308 ""
   "C:/Users/canov/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss1095.pk" 1757525332 21816 0cc131373f41d9627652774b68d0901e ""
   "C:/Users/canov/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx1095.pk" 1757525334 24028 287f7e334c9fd3d7f3e687eee01c807c ""
+  "C:/Users/canov/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1759104703 21972 ba4bcf59d4e1cd388a1d40e777bcf198 ""
   "C:/Users/canov/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757340756 13257342 21d6ce102459cc24793d988e302277f6 ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1095.tfm" 993062124 3172 eb6efaa83c6c52473a1c403f376eab0f ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecss1095.tfm" 993062234 3188 1aa640cd974697c5d1d4a3c92172a829 ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx1095.tfm" 993062276 3196 ded15d3918f447726c8613f3cf216d5f ""
+  "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ectt1095.tfm" 993062342 1352 fa21dcb5ddc7d1dc47d14cd897fdeb0f ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/euler/eurm10.tfm" 1233951852 1228 9be37fdf0dc0e1f4df4af3594876d628 ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/euler/eurm7.tfm" 1233951852 1228 22a83614922c993c1b2e124955a38ca1 ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -166,16 +168,17 @@
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/canov/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Parte_1/Actividad_1.tex" 1759188784 911 8c959e82d656e71462b9846805245cac ""
-  "c:/Users/canov/OneDrive/Documentos/GitHub/TP3_COMUNICACIONES_1/informe.tex" 1759188640 2839 e4ee316ba114cf4d5acb598646a29950 ""
+  "Parte_1/Actividad_1.tex" 1759189287 873 86ab2995a1630156b91f5ff7982eaa66 ""
+  "c:/Users/canov/OneDrive/Documentos/GitHub/TP3_COMUNICACIONES_1/informe.tex" 1759189287 2858 04de391133c69dcaff4ffba9e300fe01 ""
   "caratula/logo-unsl.jpg" 1759088153 142285 577e840c998f27f57c93e3bb0e857e89 ""
   "caratula/logo_depto.jpg" 1759088153 118336 9d82fd777241b3f6e5a4d5d927030278 ""
   "caratula/logounsl.png" 1759088153 92678 d5b7f88ca0d4da1d997ccea2fbe2dbba ""
-  "informe.aux" 1759188791 891 c293a9d27deb5fbe7f749d5777e5be65 "pdflatex"
+  "fig1.png" 0 -1 0 ""
+  "informe.aux" 1759189296 891 c293a9d27deb5fbe7f749d5777e5be65 "pdflatex"
   "informe.bbl" 1759188674 0 d41d8cd98f00b204e9800998ecf8427e "biber informe"
-  "informe.out" 1759188791 101 8fe9e2e696ced34fc099079db6e2de75 "pdflatex"
-  "informe.tex" 1759188640 2839 e4ee316ba114cf4d5acb598646a29950 ""
-  "informe.toc" 1759188791 97 9fcb7bb8e62afd79051b61ecca6c4f3a "pdflatex"
+  "informe.out" 1759189296 101 8fe9e2e696ced34fc099079db6e2de75 "pdflatex"
+  "informe.tex" 1759189287 2858 04de391133c69dcaff4ffba9e300fe01 ""
+  "informe.toc" 1759189296 97 9fcb7bb8e62afd79051b61ecca6c4f3a "pdflatex"
   "librerias.tex" 1759188616 1389 35ed33665e4d55a706eed71ae8eef2fc ""
   (generated)
   "informe.aux"

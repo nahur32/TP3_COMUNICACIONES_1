@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.8)  29 SEP 2025 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.8)  29 SEP 2025 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1109,36 +1109,36 @@ No file informe.toc.
 \tf@toc=\write5
 \openout5 = `informe.toc'.
 
-(Parte_1/Actividad_1.tex
-Parte_1/Actividad_1.tex:1: Undefined control sequence.
-l.1 \chapter
-            {Modulación de amplitud}
+c:/Users/canov/OneDrive/Documentos/GitHub/TP3_COMUNICACIONES_1/informe.tex:75: Undefined control sequence.
+l.75 	\chapter
+              {Parte1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+(Parte_1/Actividad_1.tex
 
-LaTeX Warning: Reference `fig:1' on page 1 undefined on input line 4.
+LaTeX Warning: Reference `fig:1' on page 1 undefined on input line 2.
 
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 4.
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 2.
 (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 4.
+(Font)              scaled to size 10.07397pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 4.
+(Font)              scaled to size 7.63599pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(Font)              scaled to size 5.51999pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -1147,30 +1147,49 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 4.
+(Font)              scaled to size 10.07397pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 4.
+(Font)              scaled to size 7.63599pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 4.
+(Font)              scaled to size 5.51999pt on input line 2.
+
+
+LaTeX Warning: File `fig1.png' not found on input line 6.
+
+
+Parte_1/Actividad_1.tex:6: Package pdftex.def Error: File `fig1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...ludegraphics[width=0.6\textwidth]{fig1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-
-LaTeX Warning: Reference `fig:2' on page 1 undefined on input line 13.
+LaTeX Warning: Reference `fig:2' on page 1 undefined on input line 11.
 
 )
 
 <caratula/logo_depto.jpg, id=12, 539.76656pt x 538.26094pt>
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 87.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 88.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 <caratula/logounsl.png, id=13, 423.5825pt x 513.92pt>
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 87.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 88.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1183,7 +1202,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \end{document}
+l.88 \end{document}
                     [1 <./caratula/logo_depto.jpg> <./caratula/logounsl.png>] (informe.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
@@ -1218,17 +1237,17 @@ Package logreq Info: Writing requests to 'informe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28962 strings out of 468133
- 556750 string characters out of 5430713
+ 28998 strings out of 468133
+ 557395 string characters out of 5430713
  1396518 words of memory out of 5000000
- 57060 multiletter control sequences out of 15000+600000
- 705018 words of font info for 184 fonts, out of 8000000 for 9000
+ 57095 multiletter control sequences out of 15000+600000
+ 705332 words of font info for 185 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  80i,18n,82p,1067b,1848s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on informe.pdf (2 pages, 403223 bytes).
+ <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on informe.pdf (2 pages, 405986 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
- 67600 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 68112 words of extra memory for PDF output out of 74296 (max. 10000000)
 
