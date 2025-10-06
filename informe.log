@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.8)  29 SEP 2025 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.8)  6 OCT 2025 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -363,47 +363,55 @@ Package caption Info: hyperref package is loaded.
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
+) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip70
+\enit@outerparindent=\dimen182
+\enit@toks=\toks32
+\enit@inbox=\box56
+\enit@count@id=\count323
+\enitdp@description=\count324
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count323
-\l__siunitx_number_exponent_fixed_int=\count324
-\l__siunitx_number_min_decimal_int=\count325
-\l__siunitx_number_min_integer_int=\count326
-\l__siunitx_number_round_precision_int=\count327
-\l__siunitx_number_lower_threshold_int=\count328
-\l__siunitx_number_upper_threshold_int=\count329
-\l__siunitx_number_group_first_int=\count330
-\l__siunitx_number_group_size_int=\count331
-\l__siunitx_number_group_minimum_int=\count332
-\l__siunitx_angle_tmp_dim=\dimen182
-\l__siunitx_angle_marker_box=\box56
-\l__siunitx_angle_unit_box=\box57
-\l__siunitx_compound_count_int=\count333
+\l__siunitx_number_uncert_offset_int=\count325
+\l__siunitx_number_exponent_fixed_int=\count326
+\l__siunitx_number_min_decimal_int=\count327
+\l__siunitx_number_min_integer_int=\count328
+\l__siunitx_number_round_precision_int=\count329
+\l__siunitx_number_lower_threshold_int=\count330
+\l__siunitx_number_upper_threshold_int=\count331
+\l__siunitx_number_group_first_int=\count332
+\l__siunitx_number_group_size_int=\count333
+\l__siunitx_number_group_minimum_int=\count334
+\l__siunitx_angle_tmp_dim=\dimen183
+\l__siunitx_angle_marker_box=\box57
+\l__siunitx_angle_unit_box=\box58
+\l__siunitx_compound_count_int=\count335
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
-\l__siunitx_table_tmp_box=\box58
-\l__siunitx_table_tmp_dim=\dimen183
-\l__siunitx_table_column_width_dim=\dimen184
-\l__siunitx_table_integer_box=\box59
-\l__siunitx_table_decimal_box=\box60
-\l__siunitx_table_uncert_box=\box61
-\l__siunitx_table_before_box=\box62
-\l__siunitx_table_after_box=\box63
-\l__siunitx_table_before_dim=\dimen185
-\l__siunitx_table_carry_dim=\dimen186
-\l__siunitx_unit_tmp_int=\count334
-\l__siunitx_unit_position_int=\count335
-\l__siunitx_unit_total_int=\count336
+\l__siunitx_table_tmp_box=\box59
+\l__siunitx_table_tmp_dim=\dimen184
+\l__siunitx_table_column_width_dim=\dimen185
+\l__siunitx_table_integer_box=\box60
+\l__siunitx_table_decimal_box=\box61
+\l__siunitx_table_uncert_box=\box62
+\l__siunitx_table_before_box=\box63
+\l__siunitx_table_after_box=\box64
+\l__siunitx_table_before_dim=\dimen186
+\l__siunitx_table_carry_dim=\dimen187
+\l__siunitx_unit_tmp_int=\count336
+\l__siunitx_unit_position_int=\count337
+\l__siunitx_unit_total_int=\count338
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
-\col@sep=\dimen187
-\ar@mcellbox=\box64
-\extrarowheight=\dimen188
-\NC@list=\toks32
-\extratabsurround=\skip70
-\backup@length=\skip71
-\ar@cellbox=\box65
+\col@sep=\dimen188
+\ar@mcellbox=\box65
+\extrarowheight=\dimen189
+\NC@list=\toks33
+\extratabsurround=\skip71
+\backup@length=\skip72
+\ar@cellbox=\box66
 )) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/was\upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
@@ -412,46 +420,45 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen189
-\epsfysize=\dimen190
+\epsfxsize=\dimen190
+\epsfysize=\dimen191
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip72
-\multirow@cntb=\count337
-\multirow@dima=\skip73
-\bigstrutjot=\dimen191
+\multirow@colwidth=\skip73
+\multirow@cntb=\count339
+\multirow@dima=\skip74
+\bigstrutjot=\dimen192
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
-\everycr=\toks33
-\minrowclearance=\skip74
-\rownum=\count338
+\everycr=\toks34
+\minrowclearance=\skip75
+\rownum=\count340
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
-\c@tracingmulticols=\count339
-\mult@box=\box66
-\multicol@leftmargin=\dimen192
-\c@unbalance=\count340
-\c@collectmore=\count341
-\doublecol@number=\count342
-\multicoltolerance=\count343
-\multicolpretolerance=\count344
-\full@width=\dimen193
-\page@free=\dimen194
-\premulticols=\dimen195
-\postmulticols=\dimen196
-\multicolsep=\skip75
-\multicolbaselineskip=\skip76
-\partial@page=\box67
-\last@line=\box68
-\mc@boxedresult=\box69
-\maxbalancingoverflow=\dimen197
-\mult@rightbox=\box70
-\mult@grightbox=\box71
-\mult@firstbox=\box72
-\mult@gfirstbox=\box73
-\@tempa=\box74
+\c@tracingmulticols=\count341
+\mult@box=\box67
+\multicol@leftmargin=\dimen193
+\c@unbalance=\count342
+\c@collectmore=\count343
+\doublecol@number=\count344
+\multicoltolerance=\count345
+\multicolpretolerance=\count346
+\full@width=\dimen194
+\page@free=\dimen195
+\premulticols=\dimen196
+\postmulticols=\dimen197
+\multicolsep=\skip76
+\multicolbaselineskip=\skip77
+\partial@page=\box68
+\last@line=\box69
+\mc@boxedresult=\box70
+\maxbalancingoverflow=\dimen198
+\mult@rightbox=\box71
+\mult@grightbox=\box72
+\mult@firstbox=\box73
+\mult@gfirstbox=\box74
 \@tempa=\box75
 \@tempa=\box76
 \@tempa=\box77
@@ -487,16 +494,17 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \@tempa=\box107
 \@tempa=\box108
 \@tempa=\box109
-\c@minrows=\count345
-\c@columnbadness=\count346
-\c@finalcolumnbadness=\count347
-\last@try=\dimen198
-\multicolovershoot=\dimen199
-\multicolundershoot=\dimen256
-\mult@nat@firstbox=\box110
-\colbreak@box=\box111
-\mc@col@check@num=\count348
-\g__mc_curr_col_int=\count349
+\@tempa=\box110
+\c@minrows=\count347
+\c@columnbadness=\count348
+\c@finalcolumnbadness=\count349
+\last@try=\dimen199
+\multicolovershoot=\dimen256
+\multicolundershoot=\dimen257
+\mult@nat@firstbox=\box111
+\colbreak@box=\box112
+\mc@col@check@num=\count350
+\g__mc_curr_col_int=\count351
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -516,23 +524,23 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip77
-\subfigcapskip=\skip78
-\subfigcaptopadj=\dimen257
-\subfigbottomskip=\skip79
-\subfigcapmargin=\dimen258
-\subfiglabelskip=\skip80
-\c@subfigure=\count350
-\c@lofdepth=\count351
-\c@subtable=\count352
-\c@lotdepth=\count353
+\subfigtopskip=\skip78
+\subfigcapskip=\skip79
+\subfigcaptopadj=\dimen258
+\subfigbottomskip=\skip80
+\subfigcapmargin=\dimen259
+\subfiglabelskip=\skip81
+\c@subfigure=\count352
+\c@lofdepth=\count353
+\c@subtable=\count354
+\c@lotdepth=\count355
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
-\subfig@top=\skip81
-\subfig@bottom=\skip82
+\subfig@top=\skip82
+\subfig@bottom=\skip83
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fourier.sty
@@ -675,11 +683,11 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 270.
 \symUfutm=\mathgroup8
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count354
-\float@exts=\toks34
-\float@box=\box112
-\@float@everytoks=\toks35
-\@floatcapt=\box113
+\c@float@type=\count356
+\float@exts=\toks35
+\float@box=\box113
+\@float@everytoks=\toks36
+\@floatcapt=\box114
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/steinmetz\steinmetz.sty
 Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
@@ -692,88 +700,88 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks36
-\@arclen=\dimen259
-\@arcrad=\dimen260
-\pIIe@tempdima=\dimen261
-\pIIe@tempdimb=\dimen262
-\pIIe@tempdimc=\dimen263
-\pIIe@tempdimd=\dimen264
-\pIIe@tempdime=\dimen265
-\pIIe@tempdimf=\dimen266
+\pIIe@GRAPH=\toks37
+\@arclen=\dimen260
+\@arcrad=\dimen261
+\pIIe@tempdima=\dimen262
+\pIIe@tempdimb=\dimen263
+\pIIe@tempdimc=\dimen264
+\pIIe@tempdimd=\dimen265
+\pIIe@tempdime=\dimen266
+\pIIe@tempdimf=\dimen267
 )
-\stm@phasebox=\box114
-\stm@phasedp=\skip83
-\stm@phaseht=\skip84
-\stm@phasetot=\skip85
-\stm@phasewd=\skip86
+\stm@phasebox=\box115
+\stm@phasedp=\skip84
+\stm@phaseht=\skip85
+\stm@phasetot=\skip86
+\stm@phasewd=\skip87
 )) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count355
+\lrq@indent=\count357
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count356
-\c@listtotal=\count357
-\c@listcount=\count358
-\c@liststart=\count359
-\c@liststop=\count360
-\c@citecount=\count361
-\c@citetotal=\count362
-\c@multicitecount=\count363
-\c@multicitetotal=\count364
-\c@instcount=\count365
-\c@maxnames=\count366
-\c@minnames=\count367
-\c@maxitems=\count368
-\c@minitems=\count369
-\c@citecounter=\count370
-\c@maxcitecounter=\count371
-\c@savedcitecounter=\count372
-\c@uniquelist=\count373
-\c@uniquename=\count374
-\c@refsection=\count375
-\c@refsegment=\count376
-\c@maxextratitle=\count377
-\c@maxextratitleyear=\count378
-\c@maxextraname=\count379
-\c@maxextradate=\count380
-\c@maxextraalpha=\count381
-\c@abbrvpenalty=\count382
-\c@highnamepenalty=\count383
-\c@lownamepenalty=\count384
-\c@maxparens=\count385
-\c@parenlevel=\count386
-\blx@tempcnta=\count387
-\blx@tempcntb=\count388
-\blx@tempcntc=\count389
-\c@blx@maxsection=\count390
-\blx@maxsegment@0=\count391
-\blx@notetype=\count392
-\blx@parenlevel@text=\count393
-\blx@parenlevel@foot=\count394
-\blx@sectionciteorder@0=\count395
-\blx@sectionciteorderinternal@0=\count396
-\blx@entrysetcounter=\count397
-\blx@biblioinstance=\count398
-\labelnumberwidth=\skip87
-\labelalphawidth=\skip88
-\biblabelsep=\skip89
-\bibitemsep=\skip90
-\bibnamesep=\skip91
-\bibinitsep=\skip92
-\bibparsep=\skip93
-\bibhang=\skip94
+\c@tabx@nest=\count358
+\c@listtotal=\count359
+\c@listcount=\count360
+\c@liststart=\count361
+\c@liststop=\count362
+\c@citecount=\count363
+\c@citetotal=\count364
+\c@multicitecount=\count365
+\c@multicitetotal=\count366
+\c@instcount=\count367
+\c@maxnames=\count368
+\c@minnames=\count369
+\c@maxitems=\count370
+\c@minitems=\count371
+\c@citecounter=\count372
+\c@maxcitecounter=\count373
+\c@savedcitecounter=\count374
+\c@uniquelist=\count375
+\c@uniquename=\count376
+\c@refsection=\count377
+\c@refsegment=\count378
+\c@maxextratitle=\count379
+\c@maxextratitleyear=\count380
+\c@maxextraname=\count381
+\c@maxextradate=\count382
+\c@maxextraalpha=\count383
+\c@abbrvpenalty=\count384
+\c@highnamepenalty=\count385
+\c@lownamepenalty=\count386
+\c@maxparens=\count387
+\c@parenlevel=\count388
+\blx@tempcnta=\count389
+\blx@tempcntb=\count390
+\blx@tempcntc=\count391
+\c@blx@maxsection=\count392
+\blx@maxsegment@0=\count393
+\blx@notetype=\count394
+\blx@parenlevel@text=\count395
+\blx@parenlevel@foot=\count396
+\blx@sectionciteorder@0=\count397
+\blx@sectionciteorderinternal@0=\count398
+\blx@entrysetcounter=\count399
+\blx@biblioinstance=\count400
+\labelnumberwidth=\skip88
+\labelalphawidth=\skip89
+\biblabelsep=\skip90
+\bibitemsep=\skip91
+\bibnamesep=\skip92
+\bibinitsep=\skip93
+\bibparsep=\skip94
+\bibhang=\skip95
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language81
-\c@mincomprange=\count399
-\c@maxcomprange=\count400
-\c@mincompwidth=\count401
+\c@mincomprange=\count401
+\c@maxcomprange=\count402
+\c@mincompwidth=\count403
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -781,88 +789,88 @@ File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count402
-\c@savedafterword=\count403
-\c@annotator=\count404
-\c@savedannotator=\count405
-\c@author=\count406
-\c@savedauthor=\count407
-\c@bookauthor=\count408
-\c@savedbookauthor=\count409
-\c@commentator=\count410
-\c@savedcommentator=\count411
-\c@editor=\count412
-\c@savededitor=\count413
-\c@editora=\count414
-\c@savededitora=\count415
-\c@editorb=\count416
-\c@savededitorb=\count417
-\c@editorc=\count418
-\c@savededitorc=\count419
-\c@foreword=\count420
-\c@savedforeword=\count421
-\c@holder=\count422
-\c@savedholder=\count423
-\c@introduction=\count424
-\c@savedintroduction=\count425
-\c@namea=\count426
-\c@savednamea=\count427
-\c@nameb=\count428
-\c@savednameb=\count429
-\c@namec=\count430
-\c@savednamec=\count431
-\c@translator=\count432
-\c@savedtranslator=\count433
-\c@shortauthor=\count434
-\c@savedshortauthor=\count435
-\c@shorteditor=\count436
-\c@savedshorteditor=\count437
-\c@labelname=\count438
-\c@savedlabelname=\count439
-\c@institution=\count440
-\c@savedinstitution=\count441
-\c@lista=\count442
-\c@savedlista=\count443
-\c@listb=\count444
-\c@savedlistb=\count445
-\c@listc=\count446
-\c@savedlistc=\count447
-\c@listd=\count448
-\c@savedlistd=\count449
-\c@liste=\count450
-\c@savedliste=\count451
-\c@listf=\count452
-\c@savedlistf=\count453
-\c@location=\count454
-\c@savedlocation=\count455
-\c@organization=\count456
-\c@savedorganization=\count457
-\c@origlocation=\count458
-\c@savedoriglocation=\count459
-\c@origpublisher=\count460
-\c@savedorigpublisher=\count461
-\c@publisher=\count462
-\c@savedpublisher=\count463
-\c@language=\count464
-\c@savedlanguage=\count465
-\c@origlanguage=\count466
-\c@savedoriglanguage=\count467
-\c@pageref=\count468
-\c@savedpageref=\count469
-\shorthandwidth=\skip95
-\shortjournalwidth=\skip96
-\shortserieswidth=\skip97
-\shorttitlewidth=\skip98
-\shortauthorwidth=\skip99
-\shorteditorwidth=\skip100
-\locallabelnumberwidth=\skip101
-\locallabelalphawidth=\skip102
-\localshorthandwidth=\skip103
-\localshortjournalwidth=\skip104
-\localshortserieswidth=\skip105
-\localshorttitlewidth=\skip106
-\localshortauthorwidth=\skip107
-\localshorteditorwidth=\skip108
+\c@afterword=\count404
+\c@savedafterword=\count405
+\c@annotator=\count406
+\c@savedannotator=\count407
+\c@author=\count408
+\c@savedauthor=\count409
+\c@bookauthor=\count410
+\c@savedbookauthor=\count411
+\c@commentator=\count412
+\c@savedcommentator=\count413
+\c@editor=\count414
+\c@savededitor=\count415
+\c@editora=\count416
+\c@savededitora=\count417
+\c@editorb=\count418
+\c@savededitorb=\count419
+\c@editorc=\count420
+\c@savededitorc=\count421
+\c@foreword=\count422
+\c@savedforeword=\count423
+\c@holder=\count424
+\c@savedholder=\count425
+\c@introduction=\count426
+\c@savedintroduction=\count427
+\c@namea=\count428
+\c@savednamea=\count429
+\c@nameb=\count430
+\c@savednameb=\count431
+\c@namec=\count432
+\c@savednamec=\count433
+\c@translator=\count434
+\c@savedtranslator=\count435
+\c@shortauthor=\count436
+\c@savedshortauthor=\count437
+\c@shorteditor=\count438
+\c@savedshorteditor=\count439
+\c@labelname=\count440
+\c@savedlabelname=\count441
+\c@institution=\count442
+\c@savedinstitution=\count443
+\c@lista=\count444
+\c@savedlista=\count445
+\c@listb=\count446
+\c@savedlistb=\count447
+\c@listc=\count448
+\c@savedlistc=\count449
+\c@listd=\count450
+\c@savedlistd=\count451
+\c@liste=\count452
+\c@savedliste=\count453
+\c@listf=\count454
+\c@savedlistf=\count455
+\c@location=\count456
+\c@savedlocation=\count457
+\c@organization=\count458
+\c@savedorganization=\count459
+\c@origlocation=\count460
+\c@savedoriglocation=\count461
+\c@origpublisher=\count462
+\c@savedorigpublisher=\count463
+\c@publisher=\count464
+\c@savedpublisher=\count465
+\c@language=\count466
+\c@savedlanguage=\count467
+\c@origlanguage=\count468
+\c@savedoriglanguage=\count469
+\c@pageref=\count470
+\c@savedpageref=\count471
+\shorthandwidth=\skip96
+\shortjournalwidth=\skip97
+\shortserieswidth=\skip98
+\shorttitlewidth=\skip99
+\shortauthorwidth=\skip100
+\shorteditorwidth=\skip101
+\locallabelnumberwidth=\skip102
+\locallabelalphawidth=\skip103
+\localshorthandwidth=\skip104
+\localshortjournalwidth=\skip105
+\localshortserieswidth=\skip106
+\localshorttitlewidth=\skip107
+\localshortauthorwidth=\skip108
+\localshorteditorwidth=\skip109
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -872,19 +880,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count470
-\c@textcitetotal=\count471
-\c@textcitemaxnames=\count472
-\c@biburlbigbreakpenalty=\count473
-\c@biburlbreakpenalty=\count474
-\c@biburlnumpenalty=\count475
-\c@biburlucpenalty=\count476
-\c@biburllcpenalty=\count477
+\c@textcitecount=\count472
+\c@textcitetotal=\count473
+\c@textcitemaxnames=\count474
+\c@biburlbigbreakpenalty=\count475
+\c@biburlbreakpenalty=\count476
+\c@biburlnumpenalty=\count477
+\c@biburlucpenalty=\count478
+\c@biburllcpenalty=\count479
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count478
+\c@smartand=\count480
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -894,8 +902,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count479
-\c@bbx:relatedtotal=\count480
+\c@bbx:relatedcount=\count481
+\c@bbx:relatedtotal=\count482
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -924,7 +932,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2025-08-13 L3 programming layer (loader) 
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count481
+\l__color_backend_stack_int=\count483
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2025-08-13 L3 programming layer (loader) 
@@ -939,8 +947,12 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-
-No file informe.aux.
+ (informe.aux
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 12.
+)
 \openout1 = `informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -963,7 +975,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 23.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 23.
-(C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
+ (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 23.
@@ -981,8 +993,6 @@ File: fmxfutm.fd futm-extension
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 23.
 LaTeX Info: Redefining \microtypecontext on input line 23.
 Package microtype Info: Applying patch `item' on input line 23.
 Package microtype Info: Applying patch `toc' on input line 23.
@@ -1041,17 +1051,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count482
-\scratchdimen=\dimen267
-\scratchbox=\box115
-\nofMPsegments=\count483
-\nofMParguments=\count484
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count485
-\MPscratchDim=\dimen268
-\MPnumerator=\count486
-\makeMPintoPDFobject=\count487
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count484
+\scratchdimen=\dimen268
+\scratchbox=\box116
+\nofMPsegments=\count485
+\nofMParguments=\count486
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count487
+\MPscratchDim=\dimen269
+\MPnumerator=\count488
+\makeMPintoPDFobject=\count489
+\everyMPtoPDFconversion=\toks39
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1059,6 +1069,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 23.
+ (informe.out) (informe.out)
 \@outlinefile=\write4
 \openout4 = `informe.out'.
 
@@ -1087,7 +1098,7 @@ Package biblatex Info: ... file 'informe.bbl' found.
  (informe.bbl)
 Package biblatex Info: Reference section=0 on input line 23.
 Package biblatex Info: Reference segment=0 on input line 23.
-<caratula/logo-unsl.jpg, id=3, 381.425pt x 485.815pt>
+<caratula/logo-unsl.jpg, id=31, 381.425pt x 485.815pt>
 File: caratula/logo-unsl.jpg Graphic file (type jpg)
 <use caratula/logo-unsl.jpg>
 Package pdftex.def Info: caratula/logo-unsl.jpg  used on input line 31.
@@ -1104,41 +1115,32 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 [1
 
-{C:/Users/canov/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./caratula/logo-unsl.jpg>]
-No file informe.toc.
+{C:/Users/canov/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./caratula/logo-unsl.jpg>] (informe.toc
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write5
 \openout5 = `informe.toc'.
 
-c:/Users/canov/OneDrive/Documentos/GitHub/TP3_COMUNICACIONES_1/informe.tex:75: Undefined control sequence.
-l.75 	\chapter
-              {Parte1}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(Parte_1/Actividad_1.tex
-
-LaTeX Warning: Reference `fig:1' on page 1 undefined on input line 2.
-
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 2.
-(C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutmi.fd
+ (Parte_1/Actividad_1.tex
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 3.
+ (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 2.
+(Font)              scaled to size 10.07397pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 2.
+(Font)              scaled to size 7.63599pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              scaled to size 5.51999pt on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\canov\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -1147,63 +1149,116 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 2.
+(Font)              scaled to size 10.07397pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 2.
+(Font)              scaled to size 7.63599pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-
-
-LaTeX Warning: File `fig1.png' not found on input line 6.
-
-
-Parte_1/Actividad_1.tex:6: Package pdftex.def Error: File `fig1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...ludegraphics[width=0.6\textwidth]{fig1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(Font)              scaled to size 5.51999pt on input line 3.
+<imagenes/Parte_1/Actividad_1/fig1.png, id=47, 625.58719pt x 449.42906pt>
+File: imagenes/Parte_1/Actividad_1/fig1.png Graphic file (type png)
+<use imagenes/Parte_1/Actividad_1/fig1.png>
+Package pdftex.def Info: imagenes/Parte_1/Actividad_1/fig1.png  used on input line 7.
+(pdftex.def)             Requested size: 298.75264pt x 214.6331pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+) (Parte_1/Actividad_2.tex
 
-LaTeX Warning: Reference `fig:2' on page 1 undefined on input line 11.
-
-)
-
-<caratula/logo_depto.jpg, id=12, 539.76656pt x 538.26094pt>
+<caratula/logo_depto.jpg, id=49, 539.76656pt x 538.26094pt>
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 88.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 12.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
-<caratula/logounsl.png, id=13, 423.5825pt x 513.92pt>
+<caratula/logounsl.png, id=50, 423.5825pt x 513.92pt>
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 88.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 12.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 23.37048pt, for example:
-(fancyhdr)                \setlength{\headheight}{23.37048pt}.
+(fancyhdr)                Make it at least 34.96222pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.96222pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
+(fancyhdr)                \addtolength{\topmargin}{-22.96222pt}.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \end{document}
-                    [1 <./caratula/logo_depto.jpg> <./caratula/logounsl.png>] (informe.aux
+l.12     \item C
+                alcular de manera analítica la señal de salida del modulad... [1 <./caratula/logo_depto.jpg> <./caratula/logounsl.png> <./imagenes/Parte_1/Actividad_1/fig1.png>]) (Parte_1/Actividad_3.tex) (Parte_1/Actividad_4.tex
+<imagenes/Parte_1/Actividad_4/fig2.png, id=66, 603.0028pt x 319.94531pt>
+File: imagenes/Parte_1/Actividad_4/fig2.png Graphic file (type png)
+<use imagenes/Parte_1/Actividad_4/fig2.png>
+Package pdftex.def Info: imagenes/Parte_1/Actividad_4/fig2.png  used on input line 13.
+(pdftex.def)             Requested size: 298.75264pt x 158.51254pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Parte_1/Actividad_5.tex
+
+File: caratula/logo_depto.jpg Graphic file (type jpg)
+<use caratula/logo_depto.jpg>
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 5.
+(pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
+File: caratula/logounsl.png Graphic file (type png)
+<use caratula/logounsl.png>
+Package pdftex.def Info: caratula/logounsl.png  used on input line 5.
+(pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.96222pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.96222pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.96222pt}.
+
+[2]) (Parte_1/Actividad_6.tex
+<imagenes/Parte_1/Actividad_6/fig3.png, id=85, 1241.38782pt x 457.71pt>
+File: imagenes/Parte_1/Actividad_6/fig3.png Graphic file (type png)
+<use imagenes/Parte_1/Actividad_6/fig3.png>
+Package pdftex.def Info: imagenes/Parte_1/Actividad_6/fig3.png  used on input line 18.
+(pdftex.def)             Requested size: 298.75264pt x 110.15295pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Parte_1/Actividad_7.tex)
+
+File: caratula/logo_depto.jpg Graphic file (type jpg)
+<use caratula/logo_depto.jpg>
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 86.
+(pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
+File: caratula/logounsl.png Graphic file (type png)
+<use caratula/logounsl.png>
+Package pdftex.def Info: caratula/logounsl.png  used on input line 86.
+(pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.96222pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.96222pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.96222pt}.
+
+[3 <./imagenes/Parte_1/Actividad_4/fig2.png>]
+
+File: caratula/logo_depto.jpg Graphic file (type jpg)
+<use caratula/logo_depto.jpg>
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 86.
+(pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
+File: caratula/logounsl.png Graphic file (type png)
+<use caratula/logounsl.png>
+Package pdftex.def Info: caratula/logounsl.png  used on input line 86.
+(pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.96222pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.96222pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.96222pt}.
+
+[4 <./imagenes/Parte_1/Actividad_6/fig3.png>] (informe.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1212,42 +1267,24 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `informe.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `informe.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8FE9E2E696CED34FC099079DB6E2DE75;101.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                informe
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `informe.out' has not changed.
+(rerunfilecheck)             Checksum: 3218D3DFF398849A60F0A507613329EE;707.
 Package logreq Info: Writing requests to 'informe.run.xml'.
 \openout1 = `informe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28998 strings out of 468133
- 557395 string characters out of 5430713
- 1396518 words of memory out of 5000000
- 57095 multiletter control sequences out of 15000+600000
- 705332 words of font info for 185 fonts, out of 8000000 for 9000
+ 29448 strings out of 468133
+ 566200 string characters out of 5430713
+ 1413319 words of memory out of 5000000
+ 57450 multiletter control sequences out of 15000+600000
+ 706908 words of font info for 205 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 80i,18n,82p,1067b,1848s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on informe.pdf (2 pages, 405986 bytes).
+ 80i,19n,82p,1067b,1932s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\canov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ml.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/canov/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on informe.pdf (5 pages, 1309902 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 68112 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 67671 words of extra memory for PDF output out of 74296 (max. 10000000)
 
