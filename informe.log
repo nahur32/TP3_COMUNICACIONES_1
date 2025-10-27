@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.17)  26 OCT 2025 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.17)  26 OCT 2025 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1191,11 +1191,11 @@ Package pdftex.def Info: imagenes/Parte_1/Actividad_1/se√±al_reconstruida_solapa
 (pdftex.def)             Requested size: 213.39568pt x 140.83392pt.
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 94.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 89.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 94.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 89.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1206,18 +1206,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
 [2 <./imagenes/Parte_1/Actividad_1/se√±al_solapada.jpg>]
-<imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg, id=114, 361.35pt x 248.42813pt>
-File: imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg Graphic file (type jpg)
-<use imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg>
-Package pdftex.def Info: imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg  used on input line 152.
-(pdftex.def)             Requested size: 213.39568pt x 146.71158pt.
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 155.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 145.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 155.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 145.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1227,14 +1222,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
-[3 <./imagenes/Parte_1/Actividad_1/se√±al_reconstruida_solapada.jpg>]) (Parte_1/Actividad_2.tex
+[3 <./imagenes/Parte_1/Actividad_1/se√±al_reconstruida_solapada.jpg>]
+<imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg, id=119, 361.35pt x 248.42813pt>
+File: imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg Graphic file (type jpg)
+<use imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg>
+Package pdftex.def Info: imagenes/Parte_1/Actividad_1/se√±al_reconstruida_perfecta.jpg  used on input line 152.
+(pdftex.def)             Requested size: 213.39568pt x 146.71158pt.
+) (Parte_1/Actividad_2.tex
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 37.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 26.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 37.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 26.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1252,11 +1253,11 @@ Package pdftex.def Info: imagenes/Parte_1/Actividad_2/actividad_2a.png  used on 
 (pdftex.def)             Requested size: 384.1096pt x 188.55324pt.
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 109.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 95.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 109.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 95.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1267,7 +1268,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
 [5 <./imagenes/Parte_1/Actividad_2/actividad_2a.png>]
-<imagenes/Parte_1/Actividad_2/actividad_2b.png, id=138, 987.2082pt x 473.3685pt>
+<imagenes/Parte_1/Actividad_2/actividad_2b.png, id=137, 987.2082pt x 473.3685pt>
 File: imagenes/Parte_1/Actividad_2/actividad_2b.png Graphic file (type png)
 <use imagenes/Parte_1/Actividad_2/actividad_2b.png>
 Package pdftex.def Info: imagenes/Parte_1/Actividad_2/actividad_2b.png  used on input line 123.
@@ -1275,11 +1276,11 @@ Package pdftex.def Info: imagenes/Parte_1/Actividad_2/actividad_2b.png  used on 
 ) (Parte_1/Actividad_3.tex
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 21.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 10.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 21.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 10.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1292,11 +1293,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6 <./imagenes/Parte_1/Actividad_2/actividad_2b.png>]
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 89.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 73.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 89.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 73.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1309,11 +1310,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7]) (Parte_1/Actividad_4.tex
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 19.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 11.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 19.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 11.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1324,18 +1325,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
 [8]
-<imagenes/Parte_1/Actividad_4/actividad_4a.png, id=167, 895.54575pt x 366.168pt>
+<imagenes/Parte_1/Actividad_4/actividad_4a.png, id=165, 895.54575pt x 366.168pt>
 File: imagenes/Parte_1/Actividad_4/actividad_4a.png Graphic file (type png)
 <use imagenes/Parte_1/Actividad_4/actividad_4a.png>
 Package pdftex.def Info: imagenes/Parte_1/Actividad_4/actividad_4a.png  used on input line 48.
 (pdftex.def)             Requested size: 384.1096pt x 157.05246pt.
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 112.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 64.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 112.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 64.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1346,23 +1347,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
 [9 <./imagenes/Parte_1/Actividad_4/actividad_4a.png>]
-<imagenes/Parte_1/Actividad_4/actividad_4b.png, id=177, 597.432pt x 287.8755pt>
+<imagenes/Parte_1/Actividad_4/actividad_4b.png, id=175, 597.432pt x 287.8755pt>
 File: imagenes/Parte_1/Actividad_4/actividad_4b.png Graphic file (type png)
 <use imagenes/Parte_1/Actividad_4/actividad_4b.png>
 Package pdftex.def Info: imagenes/Parte_1/Actividad_4/actividad_4b.png  used on input line 116.
 (pdftex.def)             Requested size: 384.1096pt x 185.09184pt.
-<imagenes/Parte_1/Actividad_2/fig2.png, id=178, 603.0028pt x 319.94531pt>
+<imagenes/Parte_1/Actividad_2/fig2.png, id=176, 603.0028pt x 319.94531pt>
 File: imagenes/Parte_1/Actividad_2/fig2.png Graphic file (type png)
 <use imagenes/Parte_1/Actividad_2/fig2.png>
 Package pdftex.def Info: imagenes/Parte_1/Actividad_2/fig2.png  used on input line 125.
 (pdftex.def)             Requested size: 170.71393pt x 90.5751pt.
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 153.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 133.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 153.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 133.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1373,18 +1374,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
 [10 <./imagenes/Parte_1/Actividad_4/actividad_4b.png> <./imagenes/Parte_1/Actividad_2/fig2.png>]) (Parte_1/Actividad_5.tex
-Overfull \hbox (21.62117pt too wide) detected at line 35
-\T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )][] \FMS/futm/m/n/10.95 Ä \T1/futs/m/n/10.95 2\FML/futmi/m/it/10.95 v[]\T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )] \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 v[] \FMS/futm/m/n/10.95 Ä \T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 ^^@ \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )][] \FMS/futm/m/n/10.95 Å \T1/futs/m/n/10.95 2[\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )[] \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )[]] \FMS/futm/m/n/10.95 Ä \T1/futs/m/n/10.95 2\FML/futmi/m/it/10.95 v[]\T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )] \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 v[]
- []
-
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 45.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 32.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 45.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 32.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 23.37048pt, for example:
@@ -1393,19 +1391,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
 [11]
+Overfull \hbox (21.62117pt too wide) detected at line 35
+\T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )][] \FMS/futm/m/n/10.95 Ä \T1/futs/m/n/10.95 2\FML/futmi/m/it/10.95 v[]\T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )] \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 v[] \FMS/futm/m/n/10.95 Ä \T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 ^^@ \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )][] \FMS/futm/m/n/10.95 Å \T1/futs/m/n/10.95 2[\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )[] \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )[]] \FMS/futm/m/n/10.95 Ä \T1/futs/m/n/10.95 2\FML/futmi/m/it/10.95 v[]\T1/futs/m/n/10.95 [\FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 m[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 t\T1/futs/m/n/10.95 )] \FMS/futm/m/n/10.95 Ä \FML/futmi/m/it/10.95 v[]
+ []
+
 Package textcomp Info: Symbol \textrightarrow not provided by
 (textcomp)             font family futs in TS1 encoding.
 (textcomp)             Default family used instead on input line 72.
- (C:\Users\nahur\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+(C:\Users\nahur\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 111.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 90.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 111.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 90.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1423,11 +1425,11 @@ Package pdftex.def Info: imagenes/Parte_1/Actividad_6/fig3.png  used on input li
 (pdftex.def)             Requested size: 384.1096pt x 141.62323pt.
 File: caratula/logo_depto.jpg Graphic file (type jpg)
 <use caratula/logo_depto.jpg>
-Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 31.
+Package pdftex.def Info: caratula/logo_depto.jpg  used on input line 20.
 (pdftex.def)             Requested size: 28.53006pt x 28.45274pt.
 File: caratula/logounsl.png Graphic file (type png)
 <use caratula/logounsl.png>
-Package pdftex.def Info: caratula/logounsl.png  used on input line 31.
+Package pdftex.def Info: caratula/logounsl.png  used on input line 20.
 (pdftex.def)             Requested size: 23.44899pt x 28.45274pt.
 
 
@@ -1438,7 +1440,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.37048pt}.
 
 [13 <./imagenes/Parte_1/Actividad_6/fig3.png>]
-<imagenes/Parte_1/Actividad_6/modulacion_al_10.png, id=216, 1135.8435pt x 440.847pt>
+<imagenes/Parte_1/Actividad_6/modulacion_al_10.png, id=214, 1135.8435pt x 440.847pt>
 File: imagenes/Parte_1/Actividad_6/modulacion_al_10.png Graphic file (type png)
 <use imagenes/Parte_1/Actividad_6/modulacion_al_10.png>
 Package pdftex.def Info: imagenes/Parte_1/Actividad_6/modulacion_al_10.png  used on input line 47.
@@ -1817,13 +1819,13 @@ Package logreq Info: Writing requests to 'informe.run.xml'.
 Here is how much of TeX's memory you used:
  29647 strings out of 474485
  572206 string characters out of 5743733
- 1941542 words of memory out of 5000000
+ 1942542 words of memory out of 5000000
  50773 multiletter control sequences out of 15000+600000
  722768 words of font info for 530 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  80i,19n,84p,1077b,2040s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nahur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\nahur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\nahur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\nahur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\nahur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ml.pfb><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/nahur/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on informe.pdf (30 pages, 3460372 bytes).
+Output written on informe.pdf (30 pages, 3460303 bytes).
 PDF statistics:
  548 PDF objects out of 1000 (max. 8388607)
  137 named destinations out of 1000 (max. 500000)

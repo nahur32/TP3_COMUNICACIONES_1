@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber informe"] 1759236385.6698 "informe.bcf" "informe.bbl" "informe" 1761524418.57175 0
-  "informe.bcf" 1761524417 107256 c8a347bbbffa23f6c5855e74f5368900 "pdflatex"
+["biber informe"] 1759236385.6698 "informe.bcf" "informe.bbl" "informe" 1761524986.75551 0
+  "informe.bcf" 1761524985 107256 c8a347bbbffa23f6c5855e74f5368900 "pdflatex"
   (generated)
   "informe.bbl"
   "informe.blg"
   (rewritten before read)
-["pdflatex"] 1761524406.26872 "c:/Users/nahur/OneDrive/Escritorio/Comunicaciones_1/TP3_COMUNICACIONES_1/informe.tex" "informe.pdf" "informe" 1761524418.57369 0
+["pdflatex"] 1761524973.65775 "c:/Users/nahur/OneDrive/Escritorio/Comunicaciones_1/TP3_COMUNICACIONES_1/informe.tex" "informe.pdf" "informe" 1761524986.75748 0
   "C:/Users/nahur/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759873697 82665 3eb0bcc9d631fc78d736d6e53fe0e9b2 ""
   "C:/Users/nahur/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss1095.pk" 1757469541 21816 febcd90b2d9ca423d8c27562e2339acb ""
   "C:/Users/nahur/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx1095.pk" 1757469544 24028 0f429638a12e79d9f4701ce1cc531a7c ""
@@ -193,7 +193,7 @@
   "C:/Users/nahur/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nahur/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/nahur/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Parte_1/Actividad_1.tex" 1761524404 5878 90d22f7091a2e22f5a3c21e639317769 ""
+  "Parte_1/Actividad_1.tex" 1761524955 5882 543bbfcd6d479fc64ded37ff6252d081 ""
   "Parte_1/Actividad_2.tex" 1761523168 4911 7f0a64e5f4be593fb17d3ba9868e55ee ""
   "Parte_1/Actividad_3.tex" 1761523168 4786 442678c81a6feb78f6e45b7590c7165e ""
   "Parte_1/Actividad_4.tex" 1761523382 4975 8221791346a507b8bbd3e780d1e1b64b ""
@@ -235,12 +235,12 @@
   "imagenes/Parte_2/Actividad_14/14_tonoAlejandose.jpg" 1761523169 119841 ac070304d34beac8d1dd5832996bbf3c ""
   "imagenes/Parte_2/Actividad_14/14_tonoDetectado.jpg" 1761523169 145209 d8141694531b14e1be0264c6263535e7 ""
   "imagenes/Parte_2/Actividad_14/fig6.png" 1761523169 68456 57ee80ab194fbbe970988d9f17210148 ""
-  "informe.aux" 1761524417 7686 2c983c9a95270903991a559f886ed4ed "pdflatex"
+  "informe.aux" 1761524985 7686 9a7f1f00d24827b6e91664e5fd55464e "pdflatex"
   "informe.bbl" 1761523169 0 d41d8cd98f00b204e9800998ecf8427e "biber informe"
-  "informe.out" 1761524417 1457 27ae143c3d7af25aa6df73fdc9dd2bd3 "pdflatex"
-  "informe.run.xml" 1761524417 2245 8abb3da92309ccea6277a35c95efbdba "pdflatex"
+  "informe.out" 1761524985 1457 27ae143c3d7af25aa6df73fdc9dd2bd3 "pdflatex"
+  "informe.run.xml" 1761524985 2245 8abb3da92309ccea6277a35c95efbdba "pdflatex"
   "informe.tex" 1761523978 2946 80b3976656ba37e826eada5ab5666bf8 ""
-  "informe.toc" 1761524417 994 6429f83a3de4491335cd8f229ecc5323 "pdflatex"
+  "informe.toc" 1761524985 994 10607a71b1edb206cf3714104cde494e "pdflatex"
   "librerias.tex" 1761523168 1335 35ed33665e4d55a706eed71ae8eef2fc ""
   (generated)
   "informe.aux"
