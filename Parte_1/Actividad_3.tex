@@ -1,20 +1,123 @@
-\section{Ejercicio 3}
+\section{Actividad 3}
 
-Con los datos del Ejercicio 2, considerar a $s(t)$ una señal de tensión y conectar a la salida de modulador un resistor de 50 $\Omega$. Cuando sea posible indicar la respuesta también en dB.
+\subsection*{Con los datos del Ejercicio 2, considerar a $s(t)$ una señal de tensión y conectar a la salida del modulador un resistor de $50~\Omega$. Cuando sea posible indicar la respuesta también en dB}.
 
-\begin{enumerate}[label=\alph*)]
-    \item Calcular la potencia media de la portadora para un $\mu = 20\%$. \\
-    \textbf{Rta.:} 1 W.
-    \item Calcular la potencia media de la banda lateral inferior y superior para un $\mu = 20\%$. \\
-    \textbf{Rta.:} 0.01 W.
-    \item Calcular la potencia total de las señales moduladas para un $\mu = 20\%$. \\
-    \textbf{Rta.:} 1.02 W.
-    \item ¿Cuál es la relación de potencia total de banda lateral respecto la potencia total de señal modulada? \\
-    \textbf{Rta.:} 1.96\%.
-    \item ¿Cuál es la relación de potencia total de portadora respecto la potencia total de señal modulada? \\
-    \textbf{Rta.:} 98.03\%.
-    \item Repetir nuevamente los cálculos para un $\mu = 100\%$. \\
-    \textbf{Rtas.:} $P_c = 1\,W$, $P_{BLI} = P_{BLS} = 0.25\,W$, $P_T = 1.5\,W$, $RP_{BL} \approx 33.3\%$, $RP_c \approx 66.6\%$.
-    \item Repasar la teoría y analizar los resultados obtenidos en los puntos anteriores.
-    \item Comentar las ventajas y desventajas de este tipo de modulación.
-\end{enumerate}
+\subsection*{a) Calcular la potencia media de la portadora para un $\mu = 20\%$.}
+
+La potencia media de portadora para una resistencia de $50~\Omega$ es:
+\[
+    P_{\text{portadora}} = \frac{1}{2} A_c^2 = \frac{1}{2} \left(10~[V]\right)^2 \frac{1}{50~[\Omega]} = 1~[W]
+\]
+En dB:
+\[
+    P_{\text{portadora(dB)}} = 10 \log_{10}(1) = 0~[dBW]
+\]
+
+\subsection*{b) Calcular la potencia media de la banda lateral inferior y superior para un $\mu = 20\%$.}
+
+Para una resistencia de $50~\Omega$ las potencias medias de las bandas laterales son:
+\[
+    P_{BL} = P_{BLS} = \frac{\mu^2 A_c^2}{8R} = \frac{(0.2)^2 (10~[V])^2}{8(50~[\Omega])} = 0.01~[W]
+\]
+En dB:
+\[
+    P_{BL(dB)} = 10 \log_{10}(0.01) = -20~[dBW]
+\]
+
+\subsection*{c) Calcular la potencia total de las señales moduladas para un $\mu = 20\%$.}
+
+La potencia total es la suma de las tres componentes, potencia media de portadora, de banda superior y banda inferior. El resultado es:
+\[
+    P_{\text{total}} = P_{\text{portadora}} + P_{BLS} + P_{BLI} = 1.02~[W]
+\]
+En dB:
+\[
+    P_{\text{total(dB)}} = 10 \log_{10}(1.02) = 0.087~[dBW]
+\]
+
+\subsection*{d) ¿Cuál es la relación de potencia total de banda lateral respecto la potencia total de señal modulada?}
+
+La relación de la potencia total de las bandas laterales con respecto a la potencia total está dada por:
+\[
+    RP_{\text{bandas}} = \frac{\mu^2}{2 + \mu^2} = \frac{(0.2)^2}{2 + (0.2)^2} = 0.0196 \times 100\% = 1.96\%
+\]
+En dB:
+\[
+    RP_{\text{bandas(dB)}} = 10 \log_{10}(0.0196) = -16.9~[dB]
+\]
+
+\subsection*{e) ¿Cuál es la relación de potencia total de portadora respecto la potencia total de señal modulada?}
+
+La relación de potencia total de portadora respecto la potencia total de señal modulada se obtiene en base al resultado anterior:
+\[
+    RP_\textbf{portadora}=\frac{P_\text{portadora}}{P_{\text{total}}} \times 100\% = \frac{1}{1.02} \times 100\% = 98.04\%
+\]
+En dB:
+\[
+    RP_{\text{portadora(dB)}} = 10 \log_{10}\left(\frac{1}{1.02}\right) = -0.087~[dB]
+\]
+
+\subsection*{f) Repetir nuevamente los cálculos para un $\mu = 100\%$.}
+
+Los cálculos para $\mu = 100\%$ son los siguientes:
+\[
+    P_{\text{portadora}} = \frac{(10~[V])^2}{2 \cdot 50~[\Omega]} = 1~[W]
+\]
+En dB:
+\[
+    P_{\text{portadora(dB)}} = 10 \log_{10}(1) = 0~[dBW]
+\]
+
+\[
+    P_{BLS} = P_{BLI} = \frac{(10~[V])^2 \cdot 1^2}{8 \cdot 50~[\Omega]} = 0.25~[W]
+\]
+En dB:
+\[
+    P_{BL(dB)} = 10 \log_{10}(0.25) = -6.02~[dBW]
+\]
+
+\[
+    P_{\text{total}} = P_{\text{portadora}} + P_{BLS} + P_{BLI} = 1.5~[W]
+\]
+En dB:
+\[
+    P_{\text{total(dB)}} = 10 \log_{10}(1.5) = 1.76~[dBW]
+\]
+
+\[
+    RP_{\text{bandas}} = \frac{\mu^2}{2 + \mu^2} = \frac{1^2}{2 + 1^2} = \frac{1}{3} \times 100\% = 33.33\%
+\]
+En dB:
+\[
+    RP_{\text{bandas(dB)}} = 10 \log_{10}\left(\frac{1}{3}\right) = -4.77~[dB]
+\]
+
+\[
+    RP_\textbf{portadora}=\frac{P_\text{portadora}}{P_{\text{total}}} \times 100\% = \frac{1}{1.5} \times 100\% = 66.66\%
+\]
+En dB:
+\[
+    RP_{\text{portadora(dB)}} = 10 \log_{10}\left(\frac{1}{1.5}\right) = -1.76~[dB]
+\]
+
+
+\subsection*{g) Repasar la teoría y analizar los resultados obtenidos en los puntos anteriores.}
+
+    Al analizar los resultados obtenidos se observa que, para valores bajos del índice de modulación $\mu$, gran parte de la potencia total se concentra en la portadora. Esto no es deseable, ya que aproximadamente el $98{,}04\%$ de la potencia total se gasta en la portadora, la cual no transporta información. 
+A medida que el valor de $\mu$ aumenta, la potencia de la portadora permanece constante, pero la proporción de potencia correspondiente a las bandas laterales se incrementa. En consecuencia, una mayor parte de la potencia total se destina a las bandas laterales, que son las que efectivamente contienen la información del mensaje. 
+
+Por lo tanto, se busca trabajar con valores de $\mu$ lo más altos posible sin superar la unidad, para evitar la sobremodulación y la distorsión de la envolvente.
+
+    
+\subsection*{h) Comentar las ventajas y desventajas de este tipo de modulación.}
+
+Las ventajas y desventajas de este tipo de modulación, son las siguientes:
+
+\begin{itemize}
+    \item Ventajas: La simplicidad que supone a la hora de implementar el receptor.
+    \item Desventajas:
+        \begin{itemize}
+            \item La transmisión de la onda portadora supone una pérdida de potencia para la señal resultante.
+            \item La modulación de amplitud malgasta ancho de banda ya que requiere un ancho de banda de transmisión igual al doble del ancho de banda del mensaje.
+        \end{itemize}
+\end{itemize}

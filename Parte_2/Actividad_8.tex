@@ -1,11 +1,61 @@
 \section{Actividad 8}
 
-Determinar frecuencia instantánea de:  
+\subsection*{Determinar cuál es la frecuencia instantánea para cada una de las siguientes señales:}
+
+La frecuencia instantánea se define como: 
+\[
+ \quad f_i(t) = \frac{1}{2\pi} \frac{d\phi(t)}{dt}
+\]
+
+donde $\phi(t)$ corresponde al ángulo de la señal.
+
+
+\subsection*{a) \( x_1(t) = 2\cos(20\pi t + \tfrac{\pi}{6}) \)}
 
 \[
-x_1(t)=2\cos(20\pi t + \phi), \quad
-x_2(t)=17\cos(30\pi t + 4\cos(2\pi t)), \quad
-x_3(t)=\cos(25\pi t)\cos(2\cos(7\pi t)) + \sin(25\pi t)\sin(2\cos(7\pi t))
-\]  
+x_1(t) = 2\cos(20\pi t + \tfrac{\pi}{6}) \quad \Rightarrow \quad \phi_1(t) = 20\pi t + \tfrac{\pi}{6}
+\]
+
+\[
+f_1(t) = \frac{1}{2\pi} \frac{d\phi_1(t)}{dt} = \frac{1}{2\pi}(20\pi) = 10~\text{Hz}
+\]
+
+\[
+f_1(t) = 10~\text{Hz}
+\]
+
+\subsection*{b) \( x_2(t) = 17\cos(30\pi t + 4\cos(2\pi t)) \)}
+
+\[
+x_2(t) = 17\cos(30\pi t + 4\cos(2\pi t)) \quad \Rightarrow \quad \phi_2(t) = 30\pi t + 4\cos(2\pi t)
+\]
+
+\[
+f_2(t) = \frac{1}{2\pi}\frac{d\phi_2(t)}{dt} = \frac{1}{2\pi}(30\pi - 8\pi\sin(2\pi t)) = 15 - 4\sin(2\pi t)~[\text{Hz}]
+\]
+
+\[
+f_2(t) = 15 - 4\sin(2\pi t)~[\text{Hz}]
+\]
 
 
+\subsection*{c) \( x_3(t) = \cos(25\pi t)\cos(2\cos(7\pi t)) + \sin(25\pi t)\sin(2\cos(7\pi t)) \)}
+
+Usando la identidad trigonométrica:
+\[
+\cos(x - y) = \cos x \cos y + \sin x \sin y
+\]
+
+La señal \(x_3(t)\) se puede expresar como:
+\[
+x_3(t) = \cos(25\pi t - 2\cos(7\pi t)) \quad \Rightarrow \quad \phi_3(t) = 25\pi t - 2\cos(7\pi t)
+\]
+
+Por lo tanto, la frecuencia instantánea de dicha señal es:
+\[
+f_3(t) = \frac{1}{2\pi}\frac{d\phi_3(t)}{dt} = \frac{1}{2\pi}(25\pi + 14\pi\sin(7\pi t)) = 12.5 + 7\sin(7\pi t)~[\text{Hz}]
+\]
+
+\[
+f_3(t) = 12.5 + 7\sin(7\pi t)~[\text{Hz}]
+\]

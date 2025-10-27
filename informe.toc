@@ -1,8 +1,15 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Ejercicio 1}{1}{section.1}%
-\contentsline {section}{\numberline {2}Actividad 2}{2}{section.2}%
-\contentsline {section}{\numberline {3}Ejercicio 3}{4}{section.3}%
-\contentsline {section}{\numberline {4}Ejercicio 4}{4}{section.4}%
-\contentsline {section}{\numberline {5}Ejercicio 5}{5}{section.5}%
-\contentsline {section}{\numberline {6}Ejercicio 6}{5}{section.6}%
-\contentsline {section}{\numberline {7}Ejercicio 7}{6}{section.7}%
+\contentsline {section}{\numberline {1}Actividad 1}{1}{section.1}%
+\contentsline {section}{\numberline {2}Actividad 2}{4}{section.2}%
+\contentsline {section}{\numberline {3}Actividad 3}{6}{section.3}%
+\contentsline {section}{\numberline {4}Actividad 4}{8}{section.4}%
+\contentsline {section}{\numberline {5}Ejercicio 5}{11}{section.5}%
+\contentsline {section}{\numberline {6}Actividad 6}{13}{section.6}%
+\contentsline {section}{\numberline {7}Actividad 7}{16}{section.7}%
+\contentsline {section}{\numberline {8}Actividad 8}{17}{section.8}%
+\contentsline {section}{\numberline {9}Actividad 9}{18}{section.9}%
+\contentsline {section}{\numberline {10} Actividad 10}{20}{section.10}%
+\contentsline {section}{\numberline {11}Actividad 11}{20}{section.11}%
+\contentsline {section}{\numberline {12}Actividad 12}{22}{section.12}%
+\contentsline {section}{\numberline {13}Actividad 13}{23}{section.13}%
+\contentsline {section}{\numberline {14}Actividad 14}{25}{section.14}%

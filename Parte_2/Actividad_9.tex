@@ -1,9 +1,103 @@
 \section{Actividad 9}
 
-Se tiene $s(t)=15\cos(\omega_c t)+2\cos(\omega_m t)$, con $f_m=6$ kHz y $f_c=72$ MHz.  
+\subsection*{Si se tiene una señal $s(t) = 15\cos(\omega_c t + 2\cos(\omega_m t))$, donde \( f_m = 6~\text{kHz} \) y \( f_c = 72~\text{MHz} \). Obtener:}
 
-\begin{itemize}
-    \item[a)] Para $k_p=20$ rad/V, hallar $m(t)$, amplitud y frecuencia modulante.  
-    \item[b)] Para $k_f=5\times 10^3$ rad/V, hallar $m(t)$, amplitud y frecuencia modulante.  
-    \item[c)] Si se disipan 4.5 W en carga $R$, calcular $R$.  
-\end{itemize}
+\subsection*{a) Si \( k_p = 20~\text{rad/V} \), dar la expresión matemática para la tensión \( m(t) \) de modulación de fase correspondiente. ¿Cuál es su valor pico de tensión y su frecuencia modulante?}
+
+La expresión general de una señal modulada en PM es:
+    \[
+        s(t) = A_c \cos(2\pi f_c t + k_p m(t))
+    \]
+
+Se obtiene que la señal:
+    \[
+        s(t) = 15\cos(\omega_c t + 2\cos(\omega_m t))
+    \]
+
+donde:
+    \[
+      \omega_c = 2\pi f_c = 2\pi\times72~[MHz] = 144000000\pi~[\text{rad/s}]
+    \]
+    \[
+        \omega_m = 2\pi f_m = 2\pi \times 6~[kHz] = 12000\pi~[\text{rad/s}]
+    \]
+
+Comparando con la forma general:
+    \[
+        k_p m(t) = 2\cos(12000\pi t)
+    \]
+    
+Despejando la señal de mensaje $m(t)$ se obtiene que:
+    
+    \[
+        m(t) = \frac{2}{k_p}\cos(1200\pi t) = 0.1\cos(12000\pi t)~[\text{V}]
+    \]
+    \[
+        m(t) = 0.1\cos(12000\pi t)~[\text{V}
+    \]
+
+Por lo tanto, el valor pico de tensión es $V_p = 0.1~[\text{V}]$ y la frecuencia modulante es $f_m = 6~\text{kHz}$
+
+\subsection*{b) Si $k_f = 5\times10^3~\text{rad/V}$, dar la expresión matemática para la tensión $m(t)$ de modulación de frecuencia correspondiente. ¿Cuál es su valor pico de tensión y su frecuencia modulante?}
+
+La forma general de una señal modulada en FM es:
+\[
+s(t) = A_c \cos\left(2\pi f_c t + 2\pi k_f \int_0^t m(\tau)\,d\tau \right)
+\]
+
+Se tiene la siguiente señal:
+    \[
+        s(t) = 15\cos(\omega_c t + 2\cos(\omega_m t))
+    \]
+
+Comparando la señal anterior con la forma general de una señal modula en PM se obtiene que:
+    \[
+        2\cos(\omega_m t) = 2\pi k_f \int_0^t m(\tau)\,d\tau
+    \]
+
+Despejando \( m(t) \):
+
+    \[
+        \int_0^t m(\tau)\,d\tau = \frac{2}{2\pi k_f}\cos(\omega_m t)
+    \]
+
+Derivando ambos lados:
+    \[
+        m(t) = \frac{2}{2\pi k_f}\frac{d}{dt}[\cos(\omega_m t)] = \frac{2}{2\pi k_f}(-\omega_m \sin(\omega_m t))
+    \]
+    \[
+        m(t) = -\frac{2\omega_m}{2\pi k_f}\sin(\omega_m t)
+    \]
+
+Sustituyendo valores numéricos se obtiene que la señal del mensaje $m(t)$ es:
+
+    \[
+        m(t) = -\frac{2(12000\pi)}{2\pi(5\times10^3~[rad/V])}\sin(12000\pi t)
+    \]
+    \[
+        m(t) = -2.4\sin(1.2\times10^4 t)
+    \]
+
+Convirtiendo el seno a coseno se obtiene finalmente que la señal $m(t)$ es:
+
+    \[
+        m(t) = 2.4\cos(12000\pi t + 90^\circ)
+    \]
+    
+Por lo tanto, el valor pico de tensión es $V_p = 2.4~[\text{V}]$ y la frecuencia modulante es $f_m = 6~\text{kHz}$
+
+\subsection*{c) Al recibir la señal de tensión $s(t)$ en el receptor, se desarrolla una potencia promedio de $4.5~\text{W}$ en una carga acoplada $R$. Determinar el valor de $R$.}
+
+En un resistor \( R \), la potencia promedio es:
+    \[
+        P = \frac{1}{2}\frac{A_c^2}{R}
+    \]
+
+Despejando \( R \):
+    \[
+        R = \frac{A_c^2}{2P} = \frac{(15~[\text{V}])^2}{2(4.5~[\text{W}])} = 25~[\Omega]
+    \]
+
+    \[
+        \boxed{R = 25~[\Omega]}
+    \]

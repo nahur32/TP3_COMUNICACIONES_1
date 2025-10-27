@@ -1,10 +1,74 @@
 \section{Actividad 13}
 
-Radio superheterodina sintonizada en 97.9 MHz, FI=12.5 MHz.  
+\subsection*{Una radio comercial se sintoniza en la banda de FM $97.9\ \mathrm{MHz}$. 
+La radio es del tipo superheterodino, en donde la frecuencia del oscilador local ($f_{OL}$) 
+está por encima de la frecuencia sintonizada y donde se emplean un amplificador de FI, 
+centrado en $12.5\ \mathrm{MHz}$.}
 
-\begin{itemize}
-    \item[a)] Calcular frecuencia del oscilador local.  
-    \item[b)] Determinar frecuencia imagen.  
-    \item[c)] Requisitos de filtros para rechazo $\geq 55$ dB.  
-    \item[d)] Analizar efecto de armónica 2 del oscilador local.  
-\end{itemize}
+\begin{enumerate}
+  \item Determinar la frecuencia del oscilador local ($f_{OL}$).
+
+      \[
+        f_{OL} = f_s + f_{FI}
+        \]
+        Reemplazando por valores numéricos:
+        \[
+        f_{OL} = 97.9~\text{MHz} + 12.5~\text{MHz} = 110.4~\text{MHz}
+        \]
+        
+        \[
+        \boxed{f_{OL} = 110.4~\text{MHz}}
+        \]
+  
+  \item Determinar la frecuencia imagen ($f_{im}$).
+
+  La frecuencia imagen es aquella que, al mezclarse con el oscilador local, también produce la misma frecuencia intermedia:
+        \[
+        f_{im} = f_{OL} + f_{FI} = f_s + 2f_{FI}
+        \]
+        Reemplazando los valores:
+        \[
+        f_{im} = 97.9~\text{MHz} + 2(12.5~\text{MHz}) = 122.9~\text{MHz}
+        \]
+        
+        \[
+        \boxed{f_{im} = 122.9~\text{MHz}}
+        \]
+  
+  \item Si la señal FM tiene un ancho de banda de $200\ \mathrm{kHz}$, indique los requisitos 
+  mínimos para los filtros de RF y de FI, considerando que el rechazo de frecuencia imagen 
+  debe alcanzar al menos $55\ \mathrm{dB}$.
+
+    Los requisitos mínimos para los filtros son:
+    
+    Filtro de RF debe estar centrado en 97,9 MHz, ancho de banda de 200 kHz y rechazo $\geq$ 55 dB a 122,9 MHz; y el filtro de FI debe estar centrado en 12,5 MHz, ancho de banda de 200 kHz y alta atenuación fuera de banda para el rechazo de la frecuencia imagen.
+
+  
+  \item Si el oscilador local posee contenido apreciable de una segunda armónica, ¿cuáles son 
+  las otras dos frecuencias adicionales que se reciben?
+
+  Si el oscilador local posee contenido apreciable de una segunda armónica ($2f_{OL}$), 
+esta armónica también puede mezclarse con las señales de RF.  
+
+    Las nuevas frecuencias intermedias generadas serían:
+    \[
+    f_{fi1} = 2f_{OL} + f_{FI}
+    \]
+    \[
+    f_{fi2} = 2f_{OL} - f_{FI}
+    \]
+    Reemplazando:
+    \[
+    f_{fi1} = 2(110.4) - 12.5 = 233.3~\text{MHz}
+    \]
+    \[
+    f_{fi2} = 2(110.4) - 12.5 = 208.3~\text{MHz}
+    \]
+    Por lo tanto, las frecuencias adicionales coinciden con la frecuencia imagen y la frecuencia sintonizada.
+    
+    \[
+    \boxed{
+    \text{Frecuencias adicionales: } 208.3~\text{MHz y } 233.3~\text{MHz}
+    }
+    \]
+\end{enumerate}

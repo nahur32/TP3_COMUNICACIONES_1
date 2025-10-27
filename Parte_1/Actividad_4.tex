@@ -115,10 +115,9 @@ V(f) =
         \centering
         \includegraphics[width=0.9\textwidth]{imagenes/Parte_1/Actividad_4/actividad_4b.png}
         \caption{Gráfica de V(f).}
-        \label{fig:2}
+        \label{fig:4b}
     \end{figure}
 
-\bigskip
 \subsection*{c) Ahora suponer que hay una diferencia de fase entre portadoras. Comentar por qué esto es importante y qué sucede en casos extremos.}
     
     \begin{figure}[H]
@@ -127,4 +126,30 @@ V(f) =
         \caption{Detector coherente.}
         \label{fig:2}
     \end{figure}
-    
+
+Si existe una diferencia de fases entre las portadoras, 
+\[
+v(t) = \frac{A_c A_c'}{2} \cos(4\pi f_c t + \phi)m(t) + \frac{A_c A_c'}{2} \cos(\phi)m(t).
+\]
+
+De dicha expresión se puede observar que utilizando un filtro pasa bajos y siendo 
+$f_c \gg W_m$, con $W_m$ siendo el ancho de banda de $m(t)$, a la salida de dicho filtro se tiene la señal 
+\[
+v_o(t) = \frac{A_c A_c'}{2} \cos(\phi)m(t).
+\]
+De este resultado, se pueden analizar los siguientes casos con respecto al error de fase $\phi$:
+
+\begin{itemize}
+    \item Si el error de fase $\phi$ es constante, $v_o$ es proporcional a $m(t)$.
+
+    \item Si $\phi$ es igual a cero, entonces $v_o$ alcanza su valor máximo igual a 
+    \[
+    \frac{A_c A_c'}{2} m(t).
+    \]
+
+    \item Si $\phi = \pm \pi/2$, $v_o$ es cero.
+
+    \item Si $\phi$ varía aleatoriamente con el tiempo por variaciones aleatorias en el canal de comunicación, entonces la salida $v_o$ variará aleatoriamente con el tiempo. Para este caso es necesario utilizar un \textit{Receptor Costas}.
+\end{itemize}
+
+De este análisis se puede concluir que el error de fase $\phi$ en el oscilador local causa que la señal de salida se vea atenuada por un factor $\cos(\phi)$. Mientras el error sea constante, el detector proveerá una señal no distorsionada de la versión original de $m(t)$.

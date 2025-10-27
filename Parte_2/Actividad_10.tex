@@ -1,10 +1,47 @@
-\section{Actividad 10}
+\section{ Actividad 10}
 
-Una portadora de 97.3 MHz es modulada en FM por 25 kHz con desviación 200 Hz.  
+\subsection*{Una portadora de 97.3 MHz es modulada en FM por una sinusoide de 25 kHz,  de modo que la desviación de frecuencia pico es de 200 Hz. Empleando la Regla de Carson, calcular: }  
 
-\begin{itemize}
-    \item[a)] Ancho de banda por Carson.  
-    \item[b)] Ancho de banda y $\beta$ si se duplica amplitud.  
-    \item[c)] Ancho de banda y $\beta$ si se duplica frecuencia.  
-    \item[d)] Ancho de banda y $\beta$ si se duplican ambos.  
-\end{itemize}
+\subsection*{a) El ancho de banda aporximado de la señal FM.}
+
+    \[
+        BW = 2(\Delta f + f_m) = 2(200 + 25000) = 50.4~\text{kHz}
+    \]
+        
+\subsection*{b) El ancho de banda y el valor de $\beta$, si la amplitud de la señal modulante se duplica.}
+    
+Al duplicar la amplitud, la desviación de frecuencia también se duplica:
+
+    \[
+        \Delta f = 400~\text{Hz}
+    \]
+    \[
+        BW = 2(\Delta f' + f_m) = 2(400 + 25000) = 50800~\text{Hz} = 50.8~\text{kHz}
+    \]
+    \[
+        \beta = \frac{\Delta f}{f_m} = \frac{400}{25000} = 0.016
+    \]
+
+\subsection*{c El ancho de banda y el valor de $\beta$, si la frecuencia de la señal modulante se duplica.}
+    
+    \[
+        f_m = 50~\text{kHz} \qquad \Delta f = 200~\text{Hz}
+    \]
+    \[
+        BW = 2(\Delta f + f_m) = 2(200 + 50000) = 100400~\text{Hz} = 100.4~\text{kHz}
+    \]
+    \[
+        \beta = \frac{\Delta f}{f_m} = \frac{200}{50000} = 0.004
+    \]
+
+\subsection*{d) El ancho de banda y el valor de $\beta$, si se duplica la amplitud como la frecuencia de la señal moduladora.}
+    
+    \[
+        \Delta f = 400~\text{Hz} \qquad f_m = 50~\text{kHz}
+    \]
+    \[
+        BW = 2(\Delta f + f_m) = 2(400 + 50000) = 100800~\text{Hz} = 100.8~\text{kHz}
+    \]
+    \[
+        \beta = \frac{\Delta f}{f_m} = \frac{400}{50000} = 0.008
+    \]

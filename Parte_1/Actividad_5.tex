@@ -1,21 +1,113 @@
 \section{Ejercicio 5}
 
-Una versión particular de AM estéreo usa multiplexación de portadora en cuadratura. Específicamente, la portadora $A \cos(2 \pi f t)$ es empleada para modular la señal suma:
+{\subsection*{Una versión particular de AM estéreo usa multiplexación de portadora en cuadratura. Específicamente, la portadora $A_c \cos(2\pi f_c t)$ es empleada para modular la señal suma:}
 
+    \[
+        m_1(t) = v_0 + m_l(t) + m_r(t)
+    \]
+
+\subsection*{Donde $v_0$ es un \textit{offset DC} incluido con el propósito de transmitir la componente de portadora, 
+$m_l(t)$ es la señal de audio del canal izquierdo y $m_r(t)$ es la señal de audio del canal derecho.}
+
+\subsection*{La portadora en cuadratura $A_c \sen(2\pi f_c t)$ es empleada para modular la señal diferencia:}
+
+    \[
+        m_2(t) = m_l(t) - m_r(t)
+    \]
+
+\subsection*{a) Mostrar que un detector de envolvente puede ser utilizado para recuperar la suma $m_l(t) + m_r(t)$ desde la señal multiplexada en cuadratura. 
+¿Cómo puede minimizar la distorsión de la señal producida por el detector de envolvente?}
+
+
+Un \textbf{detector de envolvente} extrae la envolvente de la señal, que es su amplitud instantánea (magnitud). Para una señal AM estándar, esto recupera el mensaje directamente si hay una portadora fuerte.
+
+Para $s(t)$, la envolvente $E(t)$ es la magnitud de la componente vectorial:
+\[ s(t) = I(t) \cos(2\pi f_c t) + Q(t) \sin(2\pi f_c t) \]
+donde $I(t) = A_c m_1(t)$ (componente in-fase) y $Q(t) = A_c m_2(t)$ (componente en cuadratura).
+
+La envolvente es:
+\[ E(t) = \sqrt{ [A_c m_1(t)]^2 + [A_c m_2(t)]^2 } = A_c \sqrt{ m_1(t)^2 + m_2(t)^2 } \]
+
+Sustituyendo las definiciones:
+\[ E(t) = A_c \sqrt{ [v_0 + m_l(t) + m_r(t)]^2 + [m_l(t) - m_r(t)]^2 } \]
+
+Expandimos el cuadrado:
+\[ [m_l(t) + m_r(t)]^2 + 2 v_0 [m_l(t) + m_r(t)] + v_0^2 + [m_l(t) - m_r(t)]^2 = 2[m_l(t)^2 + m_r(t)^2] + 2 v_0 [m_l(t) + m_r(t)] + v_0^2 \]
+donde los términos cruzados se cancelan.
+
+Si $v_0$ es \textbf{grande} comparado con las amplitudes de $m_l(t)$ y $m_r(t)$ los términos $m_l^2 + m_r^2$ son negligibles. Entonces:
+\[ E(t) \approx A_c \sqrt{ v_0^2 + 2 v_0 [m_l(t) + m_r(t)] } = A_c v_0 \sqrt{ 1 + \frac{2 [m_l(t) + m_r(t)]}{v_0} } \]
+
+Usando la aproximación binomial $\sqrt{1 + x} \approx 1 + \frac{x}{2}$ para $x$ pequeño
+donde :
 \[
-m_s(t) = v + m_l(t) + m_r(t)
+x = \frac{2 [m_l(t) + m_r(t)]}{v_0} \ll 1  
+\]
+Por lo tanto, se obtiene que:
+\[ E(t) \approx A_c v_0 \left( 1 + \frac{m_l(t) + m_r(t)}{v_0} \right) = A_c v_0 + A_c [m_l(t) + m_r(t)] \]
+
+Después de filtrar el DC (con un capacitor de acoplamiento), recuperamos $A_c [m_l(t) + m_r(t)]$, que es la suma de los canales (audio mono).
+
+\textbf{Minimización de distorsión}: La distorsión viene de los términos no lineales (como $m_l^2 + m_r^2$) y de la componente en cuadratura $m_d(t)$. Para minimizarla:
+    \begin{itemize}
+        \item Haz $v_0$ lo suficientemente grande para que el índice de modulación sea bajo (e.g., < 50-70\%), asegurando que la aproximación binomial sea válida y que la envolvente no se distorsione.
+        \item Limita la amplitud de $m_d(t)$ (diferencia de canales) para que sea mucho menor que $m_s(t)$.
+    \end{itemize}
+
+Esto permite compatibilidad con receptores AM mono, que ignoran la cuadratura y solo oyen la suma.
+
+
+
+\subsection*{b) Mostrar que un detector coherente puede recuperar la diferencia $m_l(t) - m_r(t)$.}
+
+Un \textbf{detector coherente} multiplica la señal recibida por una portadora local sincronizada y filtra pasa-bajos. Para recuperar la componente en cuadratura, usamos la portadora desfasada: $2 \sin(2\pi f_c t)$ (el factor 2 es por convención, para simplificar).
+
+Multiplicamos $s(t)$ por $2 \sin(2\pi f_c t)$:
+    \[ 
+        2 s(t) \sin(2\pi f_c t) = 2 A_c m_1(t) \cos(2\pi f_c t) \sin(2\pi f_c t) + 2 A_c m_2(t) \sin^2(2\pi f_c t)
+    \]
+
+Usando identidades trigonométricas:
+\begin{itemize}
+    \item $2 \cos \theta \sin \theta = \sin(2\theta)$ → término de alta frecuencia (se filtra).
+    \item $\sin^2(\theta) = \frac{1 - \cos(2\theta)}{2} \implies 2 \sin^2(\theta) = 1 - \cos(2\theta)$.
+\end{itemize}
+
+Se tiene que:
+    \[
+        Sal(t)= A_c m_1(t) \sin(4\pi f_c t) + A_c m_2(t) \left(1 + \cos(4\pi f_c t)\right)
+    \]
+    \[
+        = A_c m_1(t) \sin(4\pi f_c t) + A_c m_2(t) - A_c m_2(t) \cos(4\pi f_c t)
+    \]
+
+Después de filtro pasa-bajos , solo queda el término banda-base de la cuadratura:
+\[ 
+    Sal_{PB} (t) = A_c m_d(t) \cdot 1 = A_c [m_l(t) - m_r(t)] 
 \]
 
-donde $v$ es un offset DC incluido con el propósito de transmitir la componente de portadora, $m_l(t)$ es la señal de audio de canal izquierdo y $m_r(t)$ es la señal de audio de canal derecho.
+(Asumiendo sincronismo perfecto de fase y frecuencia entre la portadora local y la transmitida). Así, recuperamos la diferencia $m_l(t) - m_r(t)$ (multiplicada por $A_c$, que se puede ajustar con ganancia).
 
-La portadora en cuadratura $A \sen(2 \pi f t)$ es empleada para modular la señal diferencia:
 
-\[
-m_d(t) = m_l(t) - m_r(t)
-\]
 
-\begin{enumerate}[label=\alph*)]
-    \item Mostrar que un detector de envolvente puede ser utilizado para recuperar la suma $m_l(t) + m_r(t)$ desde la señal multiplexada en cuadratura. ¿Cómo puede minimizar la distorsión de la señal producida por el detector de envolvente?
-    \item Mostrar que un detector coherente puede recuperar la diferencia $m_l(t) - m_r(t)$.
-    \item ¿Cómo se obtienen finalmente las señales $m_l(t)$ y $m_r(t)$ deseadas?
-\end{enumerate}
+\subsection*{c) ¿Cómo se obtienen finalmente las señales $m_l(t)$ y $m_r(t)$ deseadas?}
+
+Para obtener la señal $m_l (t)$, se realiza la suma entre $m_1 (t)$ y  $m_2 (t)$. Por lo tanto, se obtiene que la señal $m_l (t)$ es:
+    \[
+        m_1 (t) + m_2 (t) = 2m_l (t) + v_o
+    \]
+    
+    \[
+        m_l (t) = \frac{m_1 (t) + m_2 (t) + v_o}{2}
+    \]
+
+Para obtener la señal $m_r (t)$, se realiza la resta entre $m_1 (t)$ y  $m_2 (t)$. Por lo tanto, se obtiene que la señal $m_r (t)$ es:
+    \[
+        m_1 (t) - m_2 (t) = 2m_r (t) + v_o
+    \]
+    
+    \[
+        m_r (t) = \frac{m_1 (t) - m_2 (t) + v_o}{2}
+    \]
+
+    
